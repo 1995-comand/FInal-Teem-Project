@@ -5,14 +5,14 @@ import "swiper/css/free-mode";
 import { FreeMode } from "swiper/modules";
 
 const data = [
-    { title: "Личные вещи", img: "/icons/1.png" },
-    { title: "Телефоны и аксессуары", img: "/icons/2.png" },
-    { title: "Электроника", img: "/icons/3.png" },
-    { title: "Бытовая техника", img: "/icons/4.png" },
-    { title: "Дом и сад", img: "/icons/5.png" },
-    { title: "Животные", img: "/icons/6.png" },
-    { title: "Товары для детей", img: "/icons/7.png" },
-    { title: "Хобби и отдых", img: "/icons/8.png" },
+    { title: "Личные вещи", img: "src/assets/Group.png" },
+    { title: "Телефоны и аксессуары", img: "src/assets/phone.png" },
+    { title: "Электроника", img: "src/assets/electronic.png" },
+    { title: "Бытовая техника", img: "src/assets/off.png" },
+    { title: "Дом и сад", img: "src/assets/ab.png" },
+    { title: "Животные", img: "src/assets/balu.png"},
+    { title: "Товары для детей", img: "src/assets/soska.png" },
+    { title: "Хобби и отдых", img: "src/assets/kanki.png" },
 ];
 
 export default function CategoriesSlider() {
@@ -30,7 +30,7 @@ export default function CategoriesSlider() {
                 {data.map((item, index) => (
                     <SwiperSlide key={index}>
                         <div className="flex flex-col items-center">
-                            <div className="w-20 h-20 rounded-full bg-green-100 flex items-center justify-center mb-2">
+                            <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center mb-2">
                                 <img src={item.img} alt={item.title} className="w-10 h-10" />
                             </div>
                             <p className="text-center text-sm">{item.title}</p>
