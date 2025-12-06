@@ -1,8 +1,11 @@
 import React from 'react'
+import CategoriesSlider from './Components/CategoriesSlider'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <CategoriesSlider />
+    </div>
   )
 }
 
