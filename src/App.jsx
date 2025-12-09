@@ -1,9 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import Islom from "./pages/islom";
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <div>App</div>
+      <Islom />
+    </div>
+  );
+};
 
-export default App
+export default App;
