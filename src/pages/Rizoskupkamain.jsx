@@ -26,7 +26,7 @@ const Rizoskupkamain = () => {
 
   return (
     <div>
-      {/* ------- HEADER ------- */}
+   
       <div className="w-full bg-gradient-to-r from-white to-green-100 py-20 px-10 md:px-28 flex flex-col md:flex-row items-center justify-between">
         <div className="max-w-xl">
           <h1 className="text-4xl md:text-5xl font-bold text-green-600 leading-snug">
@@ -45,8 +45,6 @@ const Rizoskupkamain = () => {
           <img src={headerImg} alt="header" className="w-full object-contain" />
         </div>
       </div>
-
-      {/* ------- SELL STEPS ------- */}
       <section className="w-full bg-white">
         <div className="max-w-[90%] mx-auto py-16">
           <h1 className="text-[28px] font-bold mb-10">
@@ -81,7 +79,6 @@ const Rizoskupkamain = () => {
         </div>
       </section>
 
-      {/* ------- BENEFIT CARDS ------- */}
       <div className="flex gap-[100px] justify-center">
         <div className=" flex flex-col gap-[100px] py-[150px]">
           <div className="w-[277px] h-[300px] flex flex-col items-center text-center border border-gray-200 rounded-2xl p-5 shadow-[0_4px_20px_rgba(0,0,0,0.08)] bg-white">
@@ -133,7 +130,6 @@ const Rizoskupkamain = () => {
         </div>
       </div>
 
-      {/* ------- TEXT + BUTTON ------- */}
       <div className="w-full flex items-center justify-between px-20 py-10">
         <div className="text-center flex flex-col">
           <h1 className="text-[32px] font-semibold text-[#30323D]">
@@ -149,8 +145,6 @@ const Rizoskupkamain = () => {
           Узнать примерную стоимость
         </button>
       </div>
-
-      {/* ------- FETCH BLOCK ------- */}
       <h2 className="text-[30px] font-semibold text-center mt-16 mb-10">
         Что мы покупаем?
       </h2>
@@ -174,8 +168,6 @@ const Rizoskupkamain = () => {
       <div className="text-center mt-10">
         <button className="text-[#4A4A4A] underline">Показать еще</button>
       </div>
-
-      {/* --------- NEW SECTION 1 --------- */}
       <div className="w-full bg-white py-20 px-10">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="w-[380px]">
@@ -229,8 +221,6 @@ const Rizoskupkamain = () => {
           </div>
         </div>
       </div>
-
-      {/* --------- NEW SECTION 2 --------- */}
       <div className="w-full bg-white py-20 px-10 mt-20">
         <h1 className="text-[32px] font-bold text-center mb-2">
           Сеть скупок Dily.ru
@@ -271,8 +261,6 @@ const Rizoskupkamain = () => {
           </p>
         </div>
       </div>
-
-      {/* --------- 📌 NEW SECTION FROM SCREENSHOT --------- */}
       <div className="w-full bg-white py-20 px-10 md:px-20">
         <h1 className="text-[28px] font-bold mb-6">Выгодная скупка в Москве</h1>
 
