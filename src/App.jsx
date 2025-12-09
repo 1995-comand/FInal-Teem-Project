@@ -1,8 +1,8 @@
 import React from 'react'
-
+import ServiceZ from "./Components/ServiceZ";
 const App = () => {
   return (
-    <div>App</div>
+    <div><ServiceZ /></div>
   )
 }
 
