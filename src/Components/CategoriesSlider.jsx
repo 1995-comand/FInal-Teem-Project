@@ -20,7 +20,7 @@ export default function CategoriesSlider() {
         <div className="w-full py-6">
             <h2 className="text-xl font-semibold mb-4">Вы ищете:</h2>
 
-            <Swiper
+            <Swiper 
                 slidesPerView={4.5}
                 spaceBetween={18}
                 freeMode={true}
